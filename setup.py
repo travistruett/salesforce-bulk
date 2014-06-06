@@ -3,8 +3,6 @@
 import os
 import sys
 
-import salesforce_bulk
-
 try:
     from setuptools import setup
 except ImportError:
@@ -19,7 +17,6 @@ packages = [
 ]
 
 requires = [
-    'httplib2==0.9',
     'requests>=2.2.1',
 ]
 
